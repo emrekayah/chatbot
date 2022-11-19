@@ -1,0 +1,53 @@
+{"intents": [
+    {"tag": "depreden önce",
+        "patterns": ["Deprem öncesinde yapapmız gerekenler nelerdir ", "deprem olamdan hazırlıklar ", "deremden önce yapılacak adımlar", "deprem öncesi kurallar ", "deprem öncesi"],
+        "responses": ["Deprem öncesinde, deptem sırasında ve deprem sonrasında neler yapabileceğinize dair acil durum planı yapın. ",
+        
+       " Unutmayın, yapabileceğiniz bir çok şey var.",
+        
+        "En basit plan bile plansızlıktan iyidir.",
+        
+       " Mutlaka bir acil durum malzemeleri listesi hazırlayın.",
+        
+        "Daha önce acil durum çantası hazırlamadıysanız, listedeki malzemeleri evi terk ederken bir çantaya koyarak yanınıza almayı unutmayınız.",
+        
+       " Eğer deprem yakınlarınızdan ayrı olduğunuz bir anda meydana gelirseöncesinde , nerede, nasıl buluşacağınızı saptayın.",
+        
+       "Binanızın yönetmeliklere ve standartlara uygun yapılıp yapılmamış olduğunu kontrol ettirin. Unutmayın, can ve mal kaybına neden olan deprem değil, mühendislik ilkelerine uyulmadan yapılmış binalardır.",
+        
+        "Evinizdeki devrilebilir, ağır eşyaları duvara sabitleyin. Düşmeleri halinde zarar görmenize neden olabilecek nesneleri (avize, bardak, tabak, vb.) saptayın ve önlem alın.",
+        
+        "Bulunduğunuz mahallede bir afetten sonra hizmet alabileceğiniz (sağlık, barınma, güvenlik, vb.) noktaları öğrenin.",
+        
+        "Yangına ve gaz zehirlenmelerine karşı ısıtıcıları ve varsa ısıtıcı baca borularını sabitleyin.",
+        
+        "Olası kayıplarınızı karşılayabilmek için evinizi, iş yerinizi ve eşyalarınızı, kendinizi ve ailenizi sigorta ettirin."],
+    "context set": ""
+    },
+
+    {"tag": "güle güle",
+        "patterns": ["Görüşürüz","Sonra görüşürüz","Güle güle"],
+        "responses": ["Sonra görüşürüz, ziyaret ettiğiniz için teşekkürler", "İyi günler", "Görüşürüz! Yakında tekrar gelin."]
+    },
+
+    {"tag": "teşekkürler",
+        "patterns": ["Teşekkürler","Teşekkürler","Bu yardımcı oldu"],
+        "responses": ["Yardım etmekten mutluluk duyarım!", "Her zaman!", "Memnunum"]
+    },
+
+    {"tag": "saat",
+        "patterns": ["Saat kaçta açıksın?","Saat kaç?","Ne zaman açıksın?" ],
+        "responses": ["Her gün 09:00 - 21:00 arası açığız", "Çalışma saatlerimiz her gün 09:00 - 21:00 arasıdır"]
+    },
+
+    {"tag": "ödemeler",
+        "patterns": ["Kredi kartı alıyor musunuz?", "Mastercard kabul ediyor musunuz?", "Sadece nakit mi alıyorsunuz?" ],
+        "responses": ["VISA, Mastercard ve AMEX'i kabul ediyoruz", "Çoğu kredi kartını kabul ediyoruz"]
+    },
+
+    {"tag": "bugün açık",
+        "patterns": ["Bugün açık mısınız?", "Bugün ne zaman açıksınız?", "Bugün saatiniz kaç?"],
+        "responses": ["Her gün sabah 9'dan akşam 9'a kadar açığız", "Çalışma saatlerimiz her gün sabah 9'dan akşam 9'a kadar"]
+    }
+    ]
+}
